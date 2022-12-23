@@ -131,7 +131,14 @@ p {
 }
 
 .attribution {
+    margin: 0;
+    padding: 2rem 0;
     color: var(--white);
+    text-align: center;
+}
+
+.attribution > a {
+    color: var(--soft-violet);
 }
 
 @media only screen and (min-width: 1440px) {
