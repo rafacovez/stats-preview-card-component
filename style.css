@@ -21,3 +21,85 @@ html {
 * {
     box-sizing: inherit;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--very-dark-blue);
+    font-family: var(--font-inter);
+}
+
+main {
+    margin: 0;
+    padding: 4rem 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: calc(var(--font-size) * 0.6);
+}
+
+p {
+    line-height: calc(var(--font-size) * 0.8);
+}
+
+.highlighted-text {
+    color: var(--soft-violet);
+}
+
+.modal {
+    background-color: var(--dark-saturated-blue);
+    color: var(--white);
+    margin: 0;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+}
+
+.heading {
+    font-weight: var(--font-bold);
+    font-size: calc(var(--font-size) * 1);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.paragraph {
+    margin: 1rem 0;
+    padding: 0;
+    font-weight: var(--font-regular);
+    font-size: calc(var(--font-size) * 0.4);
+    text-align: center;
+    color: var(--slightly-transparent-white);
+}
+
+.stats-wrapper {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: 2rem 0 0 0;
+}
+
+.stat:not(:first-child) {
+    margin: 2rem 0 0 0;
+}
+
+.number {
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    font-weight: var(--font-bold);
+    font-size: calc(var(--font-size) * 0.6);
+    display: block;
+}
+
+.description {
+    font-family: var(--font-lexend);
+    font-size: calc(var(--font-size) * 0.4);
+    font-weight: var(--font-regular);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    color: var(--very-transparent-white);
+}
+
+.attribution {
+    color: var(--white);
+}
