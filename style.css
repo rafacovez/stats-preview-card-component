@@ -137,10 +137,7 @@ p {
     body {
         display: grid;
         place-items: center;
-    }
-
-    main {
-        padding: 6rem 0;
+        min-height: 100vh;
     }
 
     .modal {
